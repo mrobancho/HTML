@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(218, 231, 236);
+    background-color: steelblue ;
+}
+
+h2{
+    color: rgb(8, 70, 121);
+}
+
+h3{
+    color: rgb(8, 70, 121);
+}
+
+.header-1{
+    background: rgb(47, 102, 146);
+    padding: 5px;
+}
+
+.hearderImage{
+    float: left;
+    padding-left: 100px;
+    vertical-align: middle;
+    width: 70px;
+}
+
+h1{
+    font-weight: 600;
+    vertical-align: middle;
+    padding-left: 180px;
+}
+
+.header-2{
+    background: #60b4df;
+    text-align: center;
+    padding: 10px;
+}
+
+.header-2.active{
+    position: fixed;
+    top:0; left: 0; right:0;
+    z-index: 10000;
+}
+
+.header-2 .navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-2 .navbar  ul li{
+    display: inline-block;
+    position: relative;
+}
+ 
+.header-2 .navbar a{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 10px 1.5rem;
+}
+  
+.header-2 .navbar a:hover{
+    background : steelblue;
+    color:#fff;
+    width: 187px;
+}
+
+.header-2 nav ul li ul {
+	width: 235px;
+	position: absolute; /* put the sub menu in a separate layer */
+    z-index: 999;
+	text-align: left;
+	background-color: #60b4df;
+}
+
+.header-2 nav ul li ul li a{
+    display: block;
+}
+
+.header-2 .navbar ul li ul {
+    display: none;
+}
+
+.navbar ul li:hover ul{
+    display: block;
+}
+
+.leftAside .sidebar{
+    float: left;
+    width: 250px;
+    height: 285px;
+    background: steelblue;
+    text-decoration: none;
+}
+
+.leftAside .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leftAside .sidebar ul li{
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    border-right: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 5px 0 5px rgba(0,0,0,.1);
+}    
+
+.leftAside .sidebar ul li a{
+    display: block;
+    text-decoration: none;
+}
+ 
+.leftAside .sidebar ul li:hover{
+    background-color: #60b4df;
+}
+
+.leftAside .sidebar ul a:hover{
+    color: white;
+}
+      
+.navImage {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.leftNavText{
+    padding-left: 10px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+main{
+    padding-left: 275px;
+    padding-right: 255px;
+    align-items: center;
+}
+
+.rightAside{
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    width: 250px;
+    height: 2950px;
+}
+
+.rightAside ul li a{
+    text-decoration: none;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #60b4df;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 1.5rem;
+}
+
+p{
+    text-align: justify;
+}
+

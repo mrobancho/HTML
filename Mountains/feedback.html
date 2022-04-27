@@ -1,0 +1,149 @@
+<!-- Marlon Robancho -->
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <title>Mountains Blog</title>
+</head>
+<body>
+
+  <div class="header-1">
+    <header>
+      <img class="hearderImage" src="images/logo.png" alt="">
+      <h1>MOUNTAINS</h1>
+    </header>
+  </div>
+
+  <div class="header-2">
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="images.html">Gallery</a>
+          <ul>
+            <li><a href="images.html#popularMountain">Popular Mountains</a></li>
+            <li><a href="images.html#sevenSummits">Seven Summits</a></li>
+          </ul>
+        </li>
+        <li><a href="video.html">Experience</a></li>
+        <li><a href="table.html">Facts</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <aside class="leftAside">
+    <div class="sidebar">
+      <ul>
+        <li>
+          <a a href="index.html#home" class="">
+            <!--https://www.flaticon.com/ -->
+            <img src="images/home.png" alt="" class="navImage">
+            <span class="leftNavText">Home</span>
+          </a>
+        </li>
+        <li>
+          <a a href="index.html#types" class="">
+            <!--https://www.flaticon.com/ -->
+            <img src="images/types.png" alt="" class="navImage">
+            <span class="leftNavText">Types of Mountains</span>
+          </a>
+        </li>
+        <li>
+          <a a href="index.html#climate" class="">
+            <!--https://www.flaticon.com/ -->
+            <img src="images/climate.png" alt="" class="navImage">
+            <span class="leftNavText">Climate and Mountains</span>
+          </a>
+        </li>
+        <li>
+          <a a href="index.html#uses" class="">
+            <!--https://www.flaticon.com/ -->
+            <img src="images/usage.png" alt="" class="navImage">
+            <span class="leftNavText">Uses of Mountains</span>
+          </a>
+        </li>
+        <li>
+          <a a href="index.html#about" class="">
+            <!--https://www.flaticon.com/ -->
+            <img src="images/about.png" alt="" class="navImage">
+            <span class="leftNavText">About</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+<aside class="rightAside">
+  <h3>My Website is/was</h3>
+  <ul>
+      <li><input type="checkbox" name="websiteIs" id="websiteIs" value="Yes"> Fun to visit</li>
+      <li><input type="checkbox" name="websiteIs" id="websiteIs" value="Yes"> Well Designed</li>
+      <li><input type="checkbox" name="websiteIs" id="websiteIs" value="Yes"> Uses good colours</a></li>
+  </ul>
+  <h3>Will you Visit my Site Again?</h3>
+  <table>
+        <tbody>
+          <td><input type="radio" name="visitYes" id="visitYes"><label for="visitYes"> Yes</label></td>
+          <td><input type="radio" name="visitNo" id="visitNo"><label for="visitNo"> No</label></td>            
+        </tbody>
+  </table>
+</aside>
+
+<main class="contact">
+      <h2 id=>Help us improve</h2>
+      <div class="contactDiv">
+       <form>
+           <fieldset>
+               <legend>Please feel free to fill out the form</legend>
+               <div class="field">
+                    <label for="fromName">Name </label>
+                    <input type="text" name="fromName" id="fromName">
+                </div>
+                <div class="field">
+                    <label for="fromEmail">Email </label>
+                    <input type="text" name="fromEmail" id="fromEmail">
+                </div>
+                <div class="field">
+                  <label for="profession">Profession </label>
+                  <select name="profession" id="profession">
+                      <option value="">-- Please select --</option>
+                      <option value="Student">Student</option>
+                      <option value="IT Professional">IT Professional</option>
+                      <option value="Businessman">Businessman</option>
+                      <option value="Others Day">Others</option>
+                  </select>
+              </div>
+                <div class="field">
+                    <label for="message">Feedback </label>
+                    <textarea name="message" id="message" rows="7" cols="50"></textarea>
+                </div>
+                <div class="submit">
+                  <div>
+                       <input type="checkbox" name="terms" id="terms" value="Yes">
+                       <label for="terms">I Agree to the Terms and Conditions</label>
+                  </div>
+                  <button type="submit">Submit</button>
+                  <span class="buttonSpace"></span>
+                  <button type="submit" onclick="document.getElementById('fromName').value = '';
+                    document.getElementById('fromEmail').value = '';
+                    document.getElementById('profession').value = '';
+                    document.getElementById('message').value = '';
+                    document.getElementById('terms').value = '';
+                    document.getElementById('websiteIs').value = ''
+                    document.getElementById('visitYes').value = '';
+                    document.getElementById('visitNo').value = ''">Reset</button>
+              </div>
+           </fieldset>
+          </form>
+        </div>
+</main>
+<footer>
+  &copy; Copyright Conestoga College, 2021  
+</footer>
+</body>
+</html>

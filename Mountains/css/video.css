@@ -1,0 +1,50 @@
+main.experience{
+    padding-left: 265px;
+    padding-left: 265px;
+    align-items: center;
+}
+
+.experience h2 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.videosDiv{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.videos{
+    box-shadow: 10px 10px 5px  rgba(0,0,0,.1);
+}
+
+.videos video{
+    width: 900px;
+}
+
+.videos figcaption {
+    width: 98%;
+	font-size: 20px;
+	padding: 1%;
+	text-align: center;
+	bottom: 0;
+    background-color: white;
+    color: steelblue;
+}
+
+.rightAside{
+    height: 650px;
+}
+
+.rightAside ul{
+    line-height: 30px;
+    list-style: none; 
+    padding-left: 0; 
+    padding-bottom: 10px;
+}
+
+.rightAside a:hover{
+    color: white;
+    background-color: steelblue;
+}

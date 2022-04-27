@@ -1,0 +1,39 @@
+main.experience{
+    padding-left: 265px;
+    padding-left: 265px;
+    align-items: center;
+}
+
+.experience h2 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: 10px 10px 5px  rgba(0,0,0,.1);
+}
+th, td{
+    padding: 10px;
+}
+
+.rightAside{
+    height: 1370px;
+}
+
+.rightAside ul{
+    line-height: 30px;
+    list-style: none; 
+    padding-left: 0; 
+    padding-bottom: 10px;
+}
+
+.rightAside a:hover{
+    color: white;
+    background-color: steelblue;
+}

@@ -1,0 +1,58 @@
+main.gallery{
+    padding-left: 265px;
+    padding-left: 265px;
+    align-items: center;
+}
+
+.gallery h2 {
+	text-align: center;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    margin-bottom: 20px;
+}
+.gallery figure {
+    margin: 0;  /* to remove the default margin */
+    box-shadow: 10px 10px 5px  rgba(0,0,0,.1);
+    position: relative; /* to make the figure as the containing element of figcaption */
+}
+
+.gallery img {
+    width: 100%;
+	display: block;  /* to remove any extra spacing */
+}
+
+.gallery .sevenSummitsDiv {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.gallery .sevenSummitsImg {
+    align-items: center;
+    margin: 0;  /* to remove the default margin */
+    box-shadow: 10px 10px 5px  rgba(0,0,0,.1);
+    position: relative; /* to make the figure as the containing element of figcaption */
+}
+
+figcaption {
+    width: 96%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	padding: 2%;
+	text-align: center;
+	bottom: 0; /* to have the caption positioned at the bottom of the image */
+	background-color: white;
+    color: steelblue;
+}
+
+.rightAside{
+    height: 2150px;
+}
+
+.rightAside ul{
+
+    list-style: square; 
+}
